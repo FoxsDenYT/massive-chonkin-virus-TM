@@ -1,5 +1,5 @@
 <body>
-  <button onclick="seeya1()"><h1>CLICK HERE FOR GET FREE WIFI WERHE EVER YOU GO</h1></button>
+  <button onclick="seeya1()"><h1>CLICK HERE FOR GET FREE WIFI WERHE EVER YOU GO</h1></button><p></p>
   <script>
     i = 0
     
@@ -7,7 +7,7 @@
       i = i + 1;
       window.open("about:blank")
       document.title = "The free wifi has duplicated itself" + i + "times. Have fun!"
-      alert("The free wifi has duplicated itself" + i + "times. Have fun!")
+      document.querySelector("p").innerText = document.querySelector("p").innerText + "\nThe free wifi has duplicated itself" + i + "times. Have fun!"
       window.focus()
       seeya()
     }
